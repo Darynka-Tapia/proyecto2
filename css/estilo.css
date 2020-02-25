@@ -74,13 +74,19 @@ nav li a:hover{
 	padding: 10px;
 	font-size: 14px;
 	margin: 10px;
-	width: 150px;
+	width: 180px;
 	border-radius: 5px;
 }
 .main_section button:hover{
 	background: #F7F7F7;
 	border: 1px solid #C6C6C6;
+	outline:0px;
 }
+
+input:focus{
+	outline:none;
+}
+
 
 
 
