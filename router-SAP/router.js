@@ -24,7 +24,7 @@ class Router{
 
         if (matchedRoute === undefined) {
             return {
-                template: '<h1>404 Pagina no encontrada</h1>'
+                template: '<h1>404 Pagina no encontrada, solo da click en los botones</h1>'
             };
         }
 
