@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente para nuestro SPA Router</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <ul class="nav-list">
+            <li class="nav-list-item"><button onclick="router.loadRoute('')">Una persona</button></li>
+            <li class="nav-list-item"><button onclick="router.loadRoute('dos')"> Dos personas</button></li>
+            <li class="nav-list-item"><button onclick="router.loadRoute('tres')">Tres personas</button></li>
+        </ul>
+    </header>
+    <div class="container-data" data-router>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            By: Darynka Tapia
+        </div>
+    </footer>
+
+    <script src="router.js"></script>
+    <script src="routes.js"></script>
+    <script src="index.js"></script>
+
+    <script></script>
+</body>
+</html>
